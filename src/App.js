@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Apresentacao from './Componentes/Apresentacao/Apresentacao'; 
+import Cabecalho from './Componentes/Cabecalho/Cabecalho';
+import VideoComponentes from './Componentes/ContainerVideo/ContainerVideo';
+import Professores from './Componentes/Professores/Professores';
+import NovosProfessores from './Componentes/NovosProfessores/NovosProfessores';
+import Faq from './Componentes/ContainerInformacoes/ContainerInformacoes';
+import Parceiros from './Componentes/Parceiros/Parceiros';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Cabecalho />
+        </div>
+          <Apresentacao />
+          <div>
+            <VideoComponentes/>
+          </div>
+            <div>
+              <Professores/>
+            </div>
+              <div>
+               <NovosProfessores/>  
+              </div>
+                <div>
+                  < Faq/>
+                  <Parceiros/>
+                </div>
     </div>
   );
 }
