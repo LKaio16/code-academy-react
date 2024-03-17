@@ -13,21 +13,25 @@ function App() {
     <div className="App">
       <div>
         <Cabecalho />
-        </div>
-          <Apresentacao />
-          <div>
-            <VideoComponentes/>
-          </div>
-            <div>
-              <Professores/>
-            </div>
-              <div>
-               <NovosProfessores/>  
-              </div>
-                <div>
-                  < Faq/>
-                  <Parceiros/>
-                </div>
+      </div>
+      <div>
+        <Apresentacao />
+      </div>
+      <div>
+        <VideoComponentes/>
+      </div>
+      <div>
+        <Professores/>
+      </div>
+      <div>
+        <NovosProfessores/>  
+      </div>
+      <div>
+        < Faq/>
+      </div>
+      <div>
+        <Parceiros/>
+      </div>
     </div>
   );
 }
