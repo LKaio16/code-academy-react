@@ -1,14 +1,14 @@
 import React from 'react';
 import '../Flooter/Flooter.css';
 
-function Footer() {
+function Flooter() {
     return (
         <footer>
             <hr />
             <p>© 2024 Code Academy. Todos os direitos reservados.</p>
         </footer>
-    );
+    )
 }
 
-export default Footer;
+export default Flooter;
 
