@@ -1,18 +1,24 @@
 import React from 'react';
 import "./Header.css";
+import NomelogoSemFundo from '../../Assets/Imagens/NomelogoSemFundo.png';
+import { Link } from 'react-router-dom';
+
+
 function Cabecalho() {
   return (
     <div className="Cabecalho">
-      <img src="../../Assets/Imagens/CodeAcademyLogoSemFundo.png" alt="" className="Cabecalho__logo" />
+      <Link to='/'><img src={NomelogoSemFundo} alt="" /></Link>
 
       <div className="Cabecalho__acessos">
         <nav className="Controle_Usuario">
           <button className="cadastro">
-            <a href="FazerCadastro.html">Cadastrar-se</a>
+            <Link to='/cadastro'>Cadastre-se</Link>
+            {/* <a href="FazerCadastro.html">Cadastrar-se</a> */}
           </button>
 
           <button className="login">
-            <a href="FazerLogin.html">Entrar</a>
+            <Link to='/login'>Entrar</Link>
+            {/* <a href="FazerLogin.html">Entrar</a> */}
           </button>
         </nav>
       </div>

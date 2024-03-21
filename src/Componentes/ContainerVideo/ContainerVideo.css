@@ -1,6 +1,7 @@
 .ContainerVideo {
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
     padding: 20px;
 }
 
@@ -8,6 +9,7 @@
     background: #dfdfdf;
     padding: 32px;
     border-radius: 25px;
+    margin-bottom: 25px; 
 }
 
 .divisor {
@@ -15,6 +17,5 @@
     height: 2px;
     background: #00000042;
     border-radius: 97px;
-    margin-top: 25px;
     margin-bottom: 35px;
 }

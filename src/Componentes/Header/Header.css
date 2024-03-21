@@ -1,15 +1,21 @@
 .Cabecalho {
-    background-color: #04994a8d;
+    background-color: #03d163;
     padding: 15px 0;
     color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    top: 0;
+    position: fixed; 
+    width: 100%; 
+    z-index: 999; 
+    margin-bottom: 150px;
 }
 
-.Cabecalho__logo {
-    width: 102px;
-    margin-left: 61px;
+.Cabecalho img {
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 .Cabecalho__acessos {
@@ -20,7 +26,7 @@
 }
 
 .Controle_Usuario button {
-    FONT-FAMILY: systems-ui;
+    font-family: system-ui; /* Corrigido o erro de escrita */
     background-color: #146439ef;
     color: white;
     border: none;
@@ -31,33 +37,4 @@
 
 .Controle_Usuario button:hover {
     background-color: #005cbf;
-}
-
-button {
-    background-color: #146439ef;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s, transform 0.2s;
-    outline: none;
-    margin-top: 20px;
-}
-
-button:hover,
-button:focus {
-    background-color: #0056b3;
-    transform: translateY(-2px);
-}
-
-button:active {
-    background-color: #004494;
-    transform: translateY(1px);
-}
-
-.cadastro,
-.login {
-    margin: 5px;
 }

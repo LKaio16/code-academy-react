@@ -1,9 +1,4 @@
-/* Estilos gerais */
-body {
-    font-family: monospace;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+.centered-container-login {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +12,9 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 400px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container img {
@@ -51,23 +49,23 @@ input[type="button"] {
 }
 
 
-.button_registrar {
+.button_registrar_login {
     background-color: #808080fc;
     color: white;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
     width: 100%;
+    transform: none;
 }
 
-.button_login{
+.button_login {
     background-color: #146439ef;
     color: white;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 100%;
-    margin-top: 20px;
+    width: 100%
 }
 
 .button_login:hover {

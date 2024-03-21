@@ -1,19 +1,22 @@
+import React from 'react';
 import Apresentacao from "../Componentes/Apresentacao/Apresentacao";
-import VideoComponent from "../Componentes/ContainerVideo/ContainerVideo";
 import Professores from "../Componentes/Professores/Professores";
 import NovosProfessores from "../Componentes/NovosProfessores/NovosProfessores";
 import Faq from "../Componentes/ContainerInformacoes/ContainerInformacoes";
 import Parceiros from "../Componentes/Parceiros/Parceiros";
+import Flooter from '../Componentes/Flooter/Flooter';
 
-export default function Main(){
-    return(
-        <div>
+export default function Main() {
+    return (
+        <div style={{ minHeight: '100vh' }}> {}
             <Apresentacao />
-            <VideoComponent />
             <Professores />
             <NovosProfessores />
-            <Faq />
-            <Parceiros />
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}> {}
+                <Faq />
+                <Parceiros />
+            </div>
+            <Flooter />
         </div>
     )
 }
