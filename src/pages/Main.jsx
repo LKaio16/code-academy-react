@@ -12,7 +12,7 @@ export default function Main() {
             <Apresentacao />
             <Professores />
             <NovosProfessores />
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}> {}
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px', flexWrap:'wrap' }}> {}
                 <Faq />
                 <Parceiros />
             </div>
